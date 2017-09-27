@@ -13,7 +13,7 @@ var i = 0;
   array.push(facts[i] + "!!!");
   i++;
 } return array
-  }
+  };
 
 function iLoveTheBeatles (number) {
   var i = 0;
@@ -21,6 +21,6 @@ function iLoveTheBeatles (number) {
   do {
    array.push("I love the Beatles!");
    i++;
- } while (number < 15)
+ } while (number < 15);
  return array
 }
