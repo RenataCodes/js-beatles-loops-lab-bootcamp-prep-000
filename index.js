@@ -14,3 +14,13 @@ var i = 0;
   i++;
 } return array
   }
+
+function iLoveTheBeatles (number) {
+  var i = 0;
+  var array = [];
+  do {
+   array.push("I love the Beatles!");
+   i++;
+ } while (number < 15)
+ return array
+}
