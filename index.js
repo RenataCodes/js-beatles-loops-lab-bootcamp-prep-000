@@ -15,12 +15,11 @@ var i = 0;
 } return array
   };
 
-function iLoveTheBeatles (number) {
-  var i = 0;
+function iLoveTheBeatles (num) {
   var array = [];
   do {
    array.push("I love the Beatles!");
-   i++;
- } while (number < 15);
+  num++;
+ } while (num < 15);
  return array
-}
+};
